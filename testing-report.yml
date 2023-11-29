@@ -1,59 +1,59 @@
 
 
 
--summary: |
+- summary: |
       пользователь должен иметь возможность искать товары по ключевому слову или категории 
-status: pass
+  status: pass
 
 
--summary: |
+- summary: |
      магазин должен иметь мобильную версию
-status: fail
+  status: fail
 
--summary: |
+- summary: |
       пользователь должен иметь возможность искать товары по ключевому слову или категории 
-status: pass
+  status: pass
 
--summary: |
+- summary: |
     Пользователь должен иметь возможность просматривать товары и открвать подробное оптсание товаров
-status: pass
+  status: pass
 
--summary: |
+- summary: |
      Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-status: pass
- 
--summary:  |
+  status: pass
+  
+- summary:  |
     мользователь должен имет возможность открыть подробное описание товара
-status: pass
+  status: pass
 
--summary:  |
+- summary:  |
    Успешное добавление товаров в корзину
-status: pass
+  status: pass
 
--summary: |
+- summary: |
      при нажатии на хэштег все товары отфильтровываются
-status: fail
+  status: fail
 
--summary: |
+- summary: |
      пользовватель должен иметь возможность отсеять товары по наличию
-status: fail
+  status: fail
 
--summary: |
+- summary: |
      при смене языка в том числе менется и описание товаров
-status: fail
+  status: fail
 
--summary: |
+- summary: |
      пользователь должен иметь возможность добавить тесколько товаров в корзину
-status: pass
+  status: pass
 
--summary: |     
+- summary: |     
       пользователь должен иметь возможность купить продукты из корзины
-status: pass
+  status: pass
 
--summary: |     
+- summary: |     
       закрыть оно "удачной покупки" нажатием кнопки "назад"
-status: pass
+  status: pass
 
--summary: |     
+- summary: |     
       закрыть оно "удачной покупки" нажатием кнопки "крестик"
-status: fail
+  status: fail
