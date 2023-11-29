@@ -1,70 +1,69 @@
-
 - summary: |
    ошибка верстки
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
-   откры главную страницу
-   скролить вниз
-expected-result: |
-   разметка не сбивается
-actual-result: |
+  steps-to-reproduce: |
+    откры главную страницу
+    скролить вниз
+  expected-result: |
+    разметка не сбивается
+  actual-result: |
    кнопки "добавить в корзину" съезжают в стороны 
 
 
 
 - summary: |
    флажок "в наличии" не работает
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
    открыть главную страницу
    убрать флажок "в наличии"
-expected-result: |
+  expected-result: |
    отображает товары все которые есть в базе
-actual-result: |
+  actual-result: |
    пустая страница с текстом "результаты не найдены"
 
 
 - summary: |
    неправильная верстка элементов в корзине
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
    добавить несколько товаров в корзину
-expected-result: |
+  expected-result: |
    в корзине все элементы находятся на своих вертикалях
-actual-result: |
+  actual-result: |
    все элементы не совпадают по вертикал.(количество заказываемого товара)
 
 
 - summary: |
    не работает крестик в окне "заказ успешно принят"
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
    добавить товары в заказ, нажать "оформить заказ", 
-expected-result: |
+  expected-result: |
    можно закрыть нажатием на крестиик в углу экрана
-actual-result: |
+  actual-result: |
    крестик как элемент не работает, вернуться можно только нажатием кнопки "закрыть"
 
 
 
 - summary: |
    отсортировать по цене
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
    ввести минимальную и максимальную цену товаров 
-expected-result: |
+  expected-result: |
    можно ввсти только положительные числа
-actual-result: |
+  actual-result: |
    можно ввести отрицательное значение
 
 
@@ -72,13 +71,13 @@ actual-result: |
  
 - summary: |
    в поисковую строку можно вводить символы (:?;"№?:)
-environment: |
+  environment: |
    Версия 119.0.6045.124 (Официальная сборка), (64 бит)
    windows 10
-steps-to-reproduce: |
+  steps-to-reproduce: |
    ввести символы в посковую строку
-expected-result: |
+  expected-result: |
    символы нельзя вводить в запрос
-actual-result: |
+  actual-result: |
    можно ввести любые символы
  
