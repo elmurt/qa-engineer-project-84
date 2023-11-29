@@ -1,174 +1,174 @@
-
-
--summary: |
-      проверка функции поиска
-requirement: |
-      при правильном запросе пользователь имеет возможность отсеять товар
-prerequisites: |
+- summary: |
+    проверка функции поиска
+  requirement: |
+    при правильном запросе пользователь имеет возможность отсеять товар
+  prerequisites: |
       открыта страница с каталогом всех товаров https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
       запрос = phone
-steps: |
+  steps: |
       вводим запрос
-expected-result: |
+  expected-result: |
       поиск выдаст только товары категории "phone"
 
 
--summary: |
+- summary: |
     проверка мобильной версии сайта
-requirement: |
-  при открывании сайта с телефона, сайт толжен выглядеть корректно
-prerequisites: |
- сайт открыт с телефона
-test-data: |
- открыта мобильная версия сайта 
-expected-result: |
-  все элементы сайти работают и сохраняют изначальную верстку
+  requirement: |
+   при открывании сайта с телефона, сайт толжен выглядеть корректно
+  prerequisites: |
+   сайт открыт с телефона
+  test-data: |
+   открыта мобильная версия сайта 
+  expected-result: |
+   все элементы сайти работают и сохраняют изначальную верстку
 
 
 
--summary:  |
- проверка подробного описания товаров 
-requirement: |
- при нажатии на товар открывается его подробное описание 
-prerequisites: |
-  у пользователя открыта главная страница магазина https://hexlet-products-store.vercel.app/
-test-data: |
+- summary:  |
+   проверка подробного описания товаров 
+  requirement: |
+   при нажатии на товар открывается его подробное описание 
+  prerequisites: |
+   у пользователя открыта главная страница магазина https://hexlet-products-store.vercel.app/
+  test-data: |
    открыт каталог товаров   
-steps: |
+  steps: |
       1 открываем сайт
       2 кликаем на любой из товаров
-expected-result: |
+  expected-result: |
       открывается подробное описание товара
 
 
--summary:  |
-  Успешное добавление товаров в корзину
-requirement: |
-  у пользователя открыта главная страница магазина https://hexlet-products-store.vercel.app/
-prerequisites: |
-  добавлены товары в карзину
-test-data: |
-  открыта главнвя страница
-steps: |
+- summary:  |
+   Успешное добавление товаров в корзину
+  requirement: |
+   у пользователя открыта главная страница магазина https://hexlet-products-store.vercel.app/
+  prerequisites: |
+   добавлены товары в карзину
+  test-data: |
+   открыта главнвя страница
+  steps: |
       -добавляем товар нажатием "add to cart"
       -переходим на страницу корзины  
-expected-result: |
-  наш товар находится в корзине
+  expected-result: |
+   наш товар находится в корзине
 
 
--summary: |
+- summary: |
       проверка функции поиска хэштегу
-requirement: |
+  requirement: |
     при нажатии на хежтег в подробном описании товара, отображаются все товары с этим хештегом 
-prerequisites: |
+  prerequisites: |
       открыта страница с подробным описанием любого из товаров https://hexlet-products-store.vercel.app/products/1
-test-data: |
+  test-data: |
       #smartphones
-steps: |
+  steps: |
       вводим запрос
-expected-result: |
+  expected-result: |
       поиск выдаст только товары хештегом #smartphones
 
 
--summary: |
+- summary: |
      фильтрация по наличию 
-requirement: |
+  requirement: |
     при диактивации галочки каталог товаров увеличивается и показывает теперь товары и в наличии и не в наличии 
-prerequisites: |
+  prerequisites: |
       открыта страница католога
-test-data: |
+  test-data: |
      чек-бокс "в наличии" включен
-steps: |
+  steps: |
     убрать галочку чекбокса "в наличии"  
-expected-result: |
+  expected-result: |
     в каталоге будут видны все товары (в наличии и не в наличии)  
   
     
--summary: |
+- summary: |
      добавление нескольких товаров товаров в корзину
-requirement: |
+  requirement: |
      добавленные товары должны корректно отображаться в корзине
-prerequisites: |
+  prerequisites: |
      открыта страница католога https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
      два одинаковых товара добавленны в корзину и корректно отображаются в ней
-steps: |
+  steps: |
      на странице каталога выбрать один товар несколько раз
-expected-result: |
+  expected-result: |
      в корзине отображается выбранный товар в верном количестве 
 
--summary: |
+- summary: |
     Смена языка
-requirement: |
+  requirement: |
     язык должен меняться на кнопках навигации и в описании товаров
-prerequisites: |
+  prerequisites: |
      открыта страница католога https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
     язык Английский
-steps: |
+  steps: |
     сменить язык на русский
-expected-result: |
+  expected-result: |
      язык поменяли описание товаров и все функциональные кнопки 
 
--summary: |
+- summary: |
      добавление нескольких товаров товаров в корзину
-requirement: |
+  requirement: |
      добавленные товары должны корректно отображаться в корзине
-prerequisites: |
+  prerequisites: |
      открыта страница католога https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
      два одинаковых товара добавленны в корзину и корректно отображаются в ней
-steps:
+  steps:
      на странице каталога выбрать один товар несколько раз
-expected-result: |
+  expected-result: |
      в корзине отображается выбранный товар в верном количестве 
 
 
--summary: |
+- summary: |
     Покупка в магазине
-requirement: |
+  requirement: |
     товары из корзины можно оформить 
-prerequisites: |
+  prerequisites: |
     в корзине дабавленно несколько товаров 
-test-data: | empty
-steps: |
+  test-data: | 
+    empty
+  steps: |
     1. добавить несколько товаров в корзину
     2. нажать на кнопку "оформить заказ"
-expected-result: |
+  expected-result: |
      всплывает окошко "заказ успешно оформлен
 
      
--summary: |
+- summary: |
     тест окна "успешное оформление заказа"   
-requirement: |
+  requirement: |
      закрыть окно назатием на крестик
-prerequisites: |
+  prerequisites: |
     один или больше товаров добавлены в корзину
-test-data: | empty
-steps: |
+  test-data: |
+   empty
+  steps: |
    -переходим на страницу корзина
    -нажимаем "оформить заказ"
    -в открывшемся окне нажимаем на крестик
    
-expected-result: |
+  expected-result: |
      окно "успешное оформление заказа"  закрывается
 
 
--summary: |
+- summary: |
     тест окна "успешное оформление заказа"   
-requirement: |
+  requirement: |
      закрыть окно нажатием на кнопку "закрыть"
-prerequisites: |
+  prerequisites: |
     один или больше товаров добавлены в корзину
-test-data: |
+  test-data: |
     
-steps:
+  steps:
    -переходим на страницу корзина
    -нажимаем "оформить заказ"
    -в открывшемся окне нажимаем на кнопку "закрыть"
    
-expected-result: |
+  expected-result: |
      окно "успешное оформление заказа"  закрывается
 
      
